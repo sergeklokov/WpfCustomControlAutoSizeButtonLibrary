@@ -8,6 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace WpfCustomControlAutoSizeButtonLibrary
 {
@@ -40,11 +43,20 @@ namespace WpfCustomControlAutoSizeButtonLibrary
     ///     <MyNamespace:CustomControl1/>
     ///
     /// </summary>
-    public class CustomControl1 : Control
+
+    // The AutoSizeButton control implements a button
+    // with a custom design-time experience. 
+    public class AutoSizeButton : Button
     {
-        static CustomControl1()
+        public AutoSizeButton()
         {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(CustomControl1), new FrameworkPropertyMetadata(typeof(CustomControl1)));
+            // The following code enables custom design-mode logic.
+            // The GetIsInDesignMode check and the following design-time 
+            // code are optional and shown only for demonstration.
+            if (DesignerProperties.GetIsInDesignMode(this))
+            {
+                Content = "Design mode active";
+            }
         }
     }
 }
