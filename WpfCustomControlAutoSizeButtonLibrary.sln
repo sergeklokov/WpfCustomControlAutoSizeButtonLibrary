@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSizeButtonLibrary", "Au
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSizeButtonLibrary.VisualStudio.Design", "AutoSizeButtonLibrary.VisualStudio.Design\AutoSizeButtonLibrary.VisualStudio.Design.csproj", "{BD9C94AF-4971-42BB-82DB-1E7CB1CCAA53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApplication", "DemoApplication\DemoApplication.csproj", "{204B9784-20B0-4B26-BBA8-5501F3578720}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{BD9C94AF-4971-42BB-82DB-1E7CB1CCAA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD9C94AF-4971-42BB-82DB-1E7CB1CCAA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD9C94AF-4971-42BB-82DB-1E7CB1CCAA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204B9784-20B0-4B26-BBA8-5501F3578720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204B9784-20B0-4B26-BBA8-5501F3578720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204B9784-20B0-4B26-BBA8-5501F3578720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204B9784-20B0-4B26-BBA8-5501F3578720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
