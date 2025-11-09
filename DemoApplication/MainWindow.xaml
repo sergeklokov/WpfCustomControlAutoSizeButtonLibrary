@@ -3,10 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DemoApplication"
+        xmlns:local="clr-namespace:DemoApplication" 
+        xmlns:ab="clr-namespace:AutoSizeButtonLibrary;assembly=AutoSizeButtonLibrary"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="500">
     <Grid>
-        
+        <ab:AutoSizeButton Height="Auto" Width="Auto" Margin="45,34,235,130" />
     </Grid>
 </Window>
